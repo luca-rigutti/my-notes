@@ -16,7 +16,7 @@
 
 *Selenium*
 
-geckodriver [^1]
+geckodriver[^1].
 
 ``` python
 from selenium import webdriver
@@ -46,12 +46,12 @@ class FunctionaTestCase(TestCase):
         self.assertEquals(A,B)
 ```
 
-Test the template: `self.assertTemplateUsed(response,'appName/template.html')
+Test the template: `self.assertTemplateUsed(response,'appName/template.html')`
 
 ### Testing bad data:
-`from django.core.exceptions import ValidationError`
 
 ``` Python
+from django.core.exceptions import ValidationError
 
 def test_bad_data(self):
     def badClass():
@@ -62,4 +62,4 @@ def test_bad_data(self):
 
 ```
 
-[1^]: https://github.com/mozilla/geckodriver/releases
+[^1]: https://github.com/mozilla/geckodriver/releases
