@@ -62,4 +62,10 @@ def test_bad_data(self):
 
 ```
 
+### Setup database before running test:
+
+If you need to setup some database configuration, for example your model is unmanaged, you can use `runner` [Define test runner](https://docs.djangoproject.com/en/4.0/topics/testing/advanced/#defining-a-test-runner).
+
+An example is on the following stackoverflow question that give 2 type of how to test with model unmanaged: [link](https://stackoverflow.com/questions/7020966/how-to-create-table-during-django-tests-with-managed-false)
+
 [^1]: https://github.com/mozilla/geckodriver/releases
