@@ -2,7 +2,7 @@
 
 Git is a version control system
 
-Some command:
+## Commands list
 
 `git init`
 
@@ -15,3 +15,15 @@ Some command:
 `git stash`
 
 `git checkout branch-name`
+
+## Hooks
+
+Hooks are script that are running in some event.
+
+They come from `/git-core/templates/` files.
+
+### Typology:
+
+- pre
+- post
+
