@@ -28,17 +28,48 @@ With `-it` argument for have interactive shell
 
 ### `docker network`
 
-## What is a image
+## Docker image
 
-TBD
-## What is a container
 
-TBD
-## Docker file
+### An example
 
-TBD
-## Docker composer
-TBD
+```yaml
+FROM Image
+
+ENV variable 
+
+WORKDIR directoryExample
+
+RUN Command
+
+COPY sourceHost targetHost
+
+CMD Command
+
+```
+## Docker container
+
+### Docker compose
+
+### An example
+
+```yaml
+
+version: '3' #Docker compose version
+services:
+	nameOfService:
+    	Image: NameofImage
+        ports:
+        	- ExposePort:LocalPort
+        environment:
+           	- Variable = 'value'
+        volumes:
+        - db-data:/var/lib/mysql/data
+        
+volumes:
+	db-data
+
+```
 
 ---
 
