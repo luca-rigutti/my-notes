@@ -27,7 +27,7 @@ They come from `/git-core/templates/` files.
 - pre
 - post
 
-### An usefull example
+### An useful example
 
 To prevent commit on a branch, you can setup the pre-commit hook to block based on the actual branch.
 
