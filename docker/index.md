@@ -10,23 +10,27 @@ To download the image
 
 To show all the container is running
 
-if you want to view also the contaniner live, you need to add `-a` command.
+if you want to view also the container live, you need to add `-a` command.
 
 ### `docker run`
 
-For setting the port: `-pLocalPort:PortInsideContaniner`
+For setting the port: `-pLocalPort:PortInsideContainer`
 
 For detach: `-d`
 
 ### `docker log`
 
-with contanier id or name
+with container id or name
 
 ### `docker exec`
 
 With `-it` argument for have interactive shell
 
 ### `docker network`
+
+### `docker stat`
+
+With container name, you can view in realtime the resource you use.
 
 ## Docker image
 
@@ -58,7 +62,7 @@ CMD Command
 version: '3' #Docker compose version
 services:
 	nameOfService:
-    	Image: NameofImage
+    	Image: NameOfImage
         ports:
         	- ExposePort:LocalPort
         environment:
@@ -84,3 +88,7 @@ This information are the resource collected from online and my colleague.
 This is some resource I used:
 
 [Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE)
+
+## Dockerignore
+
+An example: .git
