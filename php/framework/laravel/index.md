@@ -5,6 +5,8 @@ Laravel is a MVC (Model View Controller) framework.
 
 Official documentation: https://laravel.com/docs/
 
+Official API: https://laravel.com/api/9.x/
+
 ---
 
 ## Some link:
@@ -18,7 +20,7 @@ Some requirement to learn better Laravel are the following:
 
 - Basic of PHP [php/index.md](../../index.md)
 - Composer packaging -> https://getcomposer.org/
-- MVC pattern -> [Wikipedia page](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+- MVC pattern -> [MVC page](./MVC.md)
 
 ---
 
@@ -44,5 +46,6 @@ If you want to write HTML that are create from PHP, the Blade template are the t
 
 - Permission and Roles
 - Eloquent ORM
+    - Model event
 - Testing
 - MongoDB connection
