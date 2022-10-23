@@ -75,6 +75,11 @@ volumes:
 
 ```
 
+#### Volumes
+
+> Tips:
+>> Volumes overwrite inside content
+
 ## Disable auto restart
 
 `docker update --restart=no my-container`
@@ -92,3 +97,9 @@ This is some resource I used:
 ## Dockerignore
 
 An example: .git
+
+## Some shell command
+
+### Stop more contaniner with same name
+
+`docker ps --format "{{.Names}}" -f name=name_of_prefix_service | xargs docker stop`
