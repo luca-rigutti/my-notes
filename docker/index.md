@@ -55,7 +55,7 @@ CMD Command
 
 ### Docker compose
 
-### An example
+#### An example
 
 ```yaml
 
@@ -79,6 +79,13 @@ volumes:
 
 > Tips:
 >> Volumes overwrite inside content
+
+
+#### Run
+
+For run a command without knowking the service name given from the docker engine:
+
+`docker-compose run -it service command`
 
 ## Disable auto restart
 
